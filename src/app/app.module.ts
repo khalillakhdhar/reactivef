@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { NotfoundComponent } from './notfound/notfound.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { CinemaComponent } from './cinema/cinema.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    NotfoundComponent
+    NotfoundComponent,
+    CinemaComponent
   ],
   imports: [
     BrowserModule,
